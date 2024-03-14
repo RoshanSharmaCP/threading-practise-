@@ -55,4 +55,4 @@ t2 = Thread(target=b1.reserve, args=(1,), name="Raj")
 t1.start()
 t2.start()
 
-# two reserve or release functions can't be used using Lock
+# two acquire or release functions can't be used using Lock
