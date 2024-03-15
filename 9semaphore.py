@@ -1,5 +1,6 @@
 # in lock and rlock, at a time only one thread is allowed to execute
 # semaphore is used to limit the access to the shared resources with limited capacity
+# maximum 3 threads allowed to execute the critical section
 
 from threading import *
 import time
