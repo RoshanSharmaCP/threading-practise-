@@ -1,0 +1,20 @@
+Daemon thread:
+ - The threads which automatically close on closure of other threads
+
+Types of threads:
+- Non Daemon threads(non-supportive type)
+- Daemon threads(supportive threads)
+
+Non-Daemon threads
+- program will not terminate until all non-Daemon threads gets completed
+
+
+Daemon threads:
+- when all non Daemon threads gets terminated automatically Daemon threads also get terminated
+- Daemon threads is a thread which runs continuously in background and provide support to other non-Daemon threads
+
+Use:
+- monitoring, background services, or cleanup operations
+
+# Default nature of main thread is non-Daemon thread
+# by default the thread which are created, there nature are of parents thread
